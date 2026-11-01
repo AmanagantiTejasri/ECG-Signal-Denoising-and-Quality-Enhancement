@@ -74,7 +74,7 @@ The complete process follows these steps:
 7. Apply the trained CNN to the FIR-filtered test signal.
 8. Evaluate the final denoised signal using performance metrics.
 
-The overall processing flow is:
+## The overall processing flow is:
 
 Clean ECG Signal + Noise  
 ↓  
