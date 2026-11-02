@@ -111,11 +111,9 @@ Performance Evaluation
 | Noisy ECG | -1.694 | 0.1616 | 0.6578 | 8 | 15 | 5 | 0.444 |
 | FIR-Filtered ECG | 9.141 | 0.0464 | 0.9395 | 13 | 0 | 0 | 1.000 |
 | FIR + CNN | 14.078 | 0.0263 | 0.9806 | 13 | 0 | 0 | 1.000 |
-## 10. Tools and Technologies
 
 
-
-## 11. Conclusion
+## 10. Conclusion
 
 This project develops a hybrid ECG denoising approach in which FIR filters perform initial noise removal and a 1D CNN further processes the filtered signal to remove residual noise.
 
@@ -123,6 +121,6 @@ The FIR stage attenuates unwanted frequency components, while the CNN learns ECG
 
 The experimental results show that the combined FIR and CNN approach improves SNR, reduces RMSE and increases correlation while preserving important ECG features.
 
-## 12. Future Work
+## 11. Future Work
 
 Future work can include testing on multiple ECG records, evaluating real-world noise, improving CNN generalization and exploring real-time implementation.
