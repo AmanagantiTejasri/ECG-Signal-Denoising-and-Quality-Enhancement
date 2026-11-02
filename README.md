@@ -4,9 +4,11 @@
 
 An Electrocardiogram (ECG) records the electrical activity of the heart. However, ECG signals are often contaminated by different types of noise, which can affect their quality and interpretation.
 
+
 This project proposes a hybrid ECG denoising technique using Finite Impulse Response (FIR) filters followed by a One-Dimensional Convolutional Neural Network (1D CNN). Initially, FIR filters are applied to remove unwanted frequency components. The filtered signal is then passed through a CNN to remove residual noise and improve the quality of the ECG signal while preserving important features such as P waves, QRS complexes and T waves.
 
 # 2. Objectives
+
 
 - Obtain clean ECG signals from a standard ECG dataset.
 - Introduce different types of noise into clean ECG signals.
